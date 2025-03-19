@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+button{
+    height: 40px;
+    width: 120px;
+    background-color: darkslategrey;
+    color: darkgray;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color:cadetblue;
+    color:beige;
+}
+
+.fan{
+    animation: movefan 2s infinite;
+}
+@keyframes movefan{
+    /* 0%{
+        transform: rotate(360deg) ;
+    }
+    25%{
+        transform: rotate(36deg) ;
+    }
+    50%{
+        transform: rotate(0deg) ;
+    }
+    75%{
+        transform: rotate(360deg) ;
+    } */
+    100%{
+        transform: rotate(360deg) ;
+    }
+}
